@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+#container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#container img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#container #contenu {
+    margin-top: 10px;
+    /* display: none; */
+}
+
+#container #contenu form {
+    margin-bottom: 10px;
+}
+
+#container #contenu input[type="text"] {
+    width: 200px;
+    padding: 5px;
+}
+
+#container #contenu div {
+    padding: 10px;
+    text-align: center;
+}
+
+#container #contenu div.success {
+    color: green;
+}
+
+#container #contenu div.error {
+    color: red;
+}
+
+
+
+
+
+
+#container1 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#container1  #formulaire {
+    margin-bottom: 20px;
+}
+
+#container1 #examen {
+    padding: 5px;
+    border-radius: 4px;
+}
+#container1 label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#container1 span {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#container1 img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#container1 #contenu1 {
+    margin-top: 10px;
+    /* display: none; */
+}
+
+#container1 #contenu1 div {
+    padding: 10px;
+    text-align: center;
+}
+
+#container1 #contenu1 div.success {
+    color: green;
+}
+
+#container1 #contenu1 div.error {
+    color: red;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1925b2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(22, 155, 22);
+}
+
+#classinput2,#classinput1{
+
+    background-color: #7c80ff;
+    color: #fcfcff;
+    border: 1px solid blue;
+    border-radius: 7px;
+}
+
+
+
+#classinput2:hover,#classinput1:hover{
+
+    background-color: #0edc4f;
+    color: #fcfcff;
+    border: 1px solid rgb(35, 209, 4);
+    border-radius: 7px;
+}
